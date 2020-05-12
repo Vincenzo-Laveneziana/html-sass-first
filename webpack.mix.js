@@ -12,7 +12,15 @@ let mix = require('laravel-mix');
  */
 
 mix.js('src/main.js', 'assets/js')
-   .sass('src/main.scss', 'assets/css');
+   .sass('src/main.scss', 'assets/css')
+   .browserSync({
+     proxy: false,
+     watch: true,
+     server: {
+       baseDir: './',
+       index: 'index.html'
+     }
+   })
 
 // Full API
 // mix.js(src, output);
