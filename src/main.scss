@@ -1,0 +1,25 @@
+$primary : rgb(58, 58, 58);
+$secondary : lightsalmon;
+$tertiary : lightseagreen;
+$font : "Arial, sans-serif";
+$padding30: 30px;
+
+body{
+  background-color: $primary;
+  color: $secondary;
+}
+
+h1{
+  font-family: $font;
+}
+
+h2{
+  background-color: $secondary;
+  padding: $padding30;
+  color: $tertiary;
+}
+
+p{
+  padding: $padding30;
+}
+

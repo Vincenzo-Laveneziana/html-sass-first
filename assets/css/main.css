@@ -1,0 +1,20 @@
+body {
+  background-color: #3a3a3a;
+  color: lightsalmon;
+}
+
+h1 {
+  font-family: "Arial, sans-serif";
+}
+
+h2 {
+  background-color: lightsalmon;
+  padding: 30px;
+  color: lightseagreen;
+}
+
+p {
+  padding: 30px;
+}
+
+
